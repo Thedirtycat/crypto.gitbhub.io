@@ -1,0 +1,186 @@
+body{
+
+  font-size: 1.5em;
+}
+
+#rowf{
+  background-color: black;
+  background-position: center;
+  height: 200px;
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
+
+
+}
+
+#row2{
+  height: 1200px;
+  background-color: white;
+  background-image: url(img/header.jpg);
+
+  border-bottom: 3px solid black;
+  overflow-y: scroll;
+
+}
+
+
+
+
+#row3{
+
+  height:2400px;
+  background-color: white;
+    border-bottom: 3px solid black;
+}
+
+
+#row4{
+
+  height:4600px;
+  background-color: white;
+  border-bottom: 3px solid black;
+
+}
+
+#row5{
+
+  height:5700px;
+  background-color: white;
+ border-bottom: 3px solid black;
+}
+
+h1{
+  text-align: center;
+  color: black;
+  margin-top: 35px;
+}
+
+h1#sec{
+
+  color:black;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p{
+  color:black;
+  text-align:  left;
+  margin-top: 25px;
+}
+
+.contain{
+
+  width: 60%;
+  margin: auto;
+  padding: 15px;
+  text-align: center;
+  background-color: #F5F5F5;
+
+  box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.56);
+
+}
+
+#contain1{
+
+  width: 60%;
+  margin: auto;
+  padding: 15px;
+  text-align: center;
+  background-color: trasparent;
+  box-shadow: 0px 0px 5px 3px rgba(255,255,255,255.56);
+
+}
+
+#contain1 p
+
+{
+
+color:#F5F5F5;
+font-weight: bold;
+}
+
+#contain1 h1
+
+{
+
+color:white;
+
+}
+
+a{
+ font-size: 32px;
+ font-weight: bold;
+ text-align: left;
+
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+h1#title2{
+
+font-size: 64px;
+color: white;
+text-shadow: 5px 5px grey;
+font-weight: bold;
+}
+
+h2{
+
+  text-align: left;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+dl{
+  text-align: left;
+  font-style: italic;
+
+
+}
+
+.navbar{
+  padding:10px;
+  background-image: url(img/headerpic.jpg);
+  background-position: left;
+  animation: moving;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  padding-top: 0;
+  padding-bottom: 0;
+
+}
+
+.navbar-nav{
+
+
+
+
+
+
+}
+
+.navbar-item:hover{
+
+background-color: yellow;
+
+}
+
+@keyframes moving
+{
+from {background-position:0 0;}
+to {background-position: -1000px 0;}
+}
+
+.navbar-item{
+
+padding-right: 35px;
+transition: 3s;
+}
+
+img{
+
+    box-shadow: 2px 0px 5px 0px rgba(0,0,0,3);
+}
