@@ -186,9 +186,11 @@ img{
 
 @media (max-width: 767px) {
 
-body {
+body h1,h2{
 /* default is 1rem or 16px */
 font-size: 8px;
 }
+
+
 
 }
