@@ -4,6 +4,7 @@ body{
   margin: 0;
   padding:0;
   overflow-x: hidden;
+  background-color: black;
 }
 
 #rowf{
@@ -128,6 +129,7 @@ font-size: 64px;
 color: white;
 text-shadow: 5px 5px grey;
 font-weight: bold;
+text-align: center;
 
 }
 
@@ -180,4 +182,13 @@ transition: 3s;
 img{
 
     box-shadow: 2px 0px 5px 0px rgba(0,0,0,3);
+}
+
+@media (max-width: 767px) {
+
+body {
+/* default is 1rem or 16px */
+font-size: 8px;
+}
+
 }
