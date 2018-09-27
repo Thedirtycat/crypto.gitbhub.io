@@ -1,11 +1,12 @@
 body{
 
   font-size: 1.5em;
+  margin: 0;
+  padding:0;
 }
 
 #rowf{
-  background-color: black;
-  background-position: center;
+  background-color:black;
   height: 200px;
   border-bottom: 3px solid black;
   border-top: 3px solid black;
@@ -19,7 +20,7 @@ body{
   background-image: url(img/header.jpg);
 
   border-bottom: 3px solid black;
-  overflow-y: scroll;
+
 
 }
 
@@ -52,7 +53,7 @@ body{
 h1{
   text-align: center;
   color: black;
-  margin-top: 35px;
+  margin-top: 55px;
 }
 
 h1#sec{
@@ -64,8 +65,8 @@ h1#sec{
 
 p{
   color:black;
-  text-align:  left;
-  margin-top: 25px;
+  text-align:left;
+  margin-top: 35px;
 }
 
 .contain{
@@ -124,6 +125,7 @@ font-size: 64px;
 color: white;
 text-shadow: 5px 5px grey;
 font-weight: bold;
+
 }
 
 h2{
@@ -153,14 +155,6 @@ dl{
 
 }
 
-.navbar-nav{
-
-
-
-
-
-
-}
 
 .navbar-item:hover{
 
