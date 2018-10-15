@@ -155,7 +155,7 @@ dl{
   animation-iteration-count: infinite;
   padding-top: 0;
   padding-bottom: 0;
-
+  padding-right: 0;
 }
 
 
@@ -187,7 +187,7 @@ img{
 body{
 /* default is 1rem or 16px */
 font-size: 8px;
-margin-left: -5px;
+
 }
 
 h1,h2{
