@@ -198,7 +198,11 @@ a {
 }
 
 #row2{
-  height: 75%;
+  height: 80%;
+}
+
+#title2{
+  font-size: 50%;
 }
 
 }
