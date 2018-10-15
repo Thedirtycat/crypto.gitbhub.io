@@ -198,11 +198,11 @@ a {
 }
 
 #row2{
-  height: 80%;
+  height: 90%;
 }
 
-#title2{
-  font-size: 50%;
+h1#title2{
+  font-size: 32px;
 }
 
 }
