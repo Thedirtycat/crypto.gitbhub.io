@@ -222,6 +222,11 @@ a {
   overflow-x: hidden;
 }
 
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .contain{
   width:90%;
 
