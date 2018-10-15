@@ -10,7 +10,7 @@ body{
 #rowf{
   background-color:black;
   height: 200px;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid grey;
   border-top: 3px solid black;
  overflow-x: hidden;
 
@@ -197,6 +197,10 @@ a {
   font-size: 4px;
 }
 
+#rowf{
+  height:50px;
+}
+
 #row2{
   height: 800px;
 }
@@ -206,11 +210,11 @@ a {
 }
 
 #row4{
-  height: 3600px;
+  height: 2600px;
 }
 
 #row5{
-  height:4700px;
+  height:3700px;
 }
 
 .contain{
