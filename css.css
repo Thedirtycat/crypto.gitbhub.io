@@ -180,7 +180,7 @@ img{
     box-shadow: 2px 0px 5px 0px rgba(0,0,0,3);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
 
 body{
 /* default is 1rem or 16px */
